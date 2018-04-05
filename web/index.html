@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<title>Foo</title>
+		<link rel="stylesheet" href="node_modules/openlayers/dist/ol.css">
+		<link rel="stylesheet" href="bootstrap.min.css">
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<div class="header">
+			<div class="header-content">
+				DC Parking Violations
+			</div>
+			<div class="header-content">
+				<select id="day-select" class="form-control">
+					<option value="MONDAY">Monday</option>
+					<option value="TUESDAY">Tuesday</option>
+					<option value="WEDNESDAY">Wednesday</option>
+					<option value="THURSDAY">Thursday</option>
+					<option value="FRIDAY">Friday</option>
+				</select>
+			</div>
+			<div class="header-content">
+			</div>
+			</div>
+		<div id="map"></div>
+		<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+		<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<script src="/node_modules/openlayers/dist/ol-debug.js"></script>
+		<script src="/node_modules/lodash/lodash.min.js"></script>
+		<script src="parking_codes.js"></script>
+		<script src="test.js"></script>
+	</body>
+</html>
